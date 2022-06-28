@@ -271,12 +271,14 @@ section .title::before {
 .scroll-down {
     position: absolute;
     right: 50%;
-    bottom: 5%;
-    animation: scroll 1.5s linear infinite alternate-reverse;
-    color: var(--skin-color);
-    display: block;
+    bottom: 25%;
+    animation: scroll 1.5s linear infinite alternate-reverse; 
     font-size: 14px;
     transform:scale(200%);
+}
+
+.scroll-down a{
+    color: var(--skin-color);
 }
 
 @keyframes scroll {
@@ -853,4 +855,7 @@ footer {
         height: 250px;
     }
 
+    .portfolio-popup-info{
+       
+    }
 }
