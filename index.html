@@ -11,13 +11,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EVW8MLYPV"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-3EVW8MLYPV');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-3EVW8MLYPV');
     </script>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
     <script src="https://kit.fontawesome.com/36c1d4a9bc.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -26,6 +27,7 @@
 </head>
 
 <body>
+       <!-- landing page -->
     <div class="cursor"></div>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
@@ -47,7 +49,7 @@
         </div>
     </nav>
 
-    <!-- home section start -->
+    <!-- home section -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
@@ -73,7 +75,10 @@
                     <img src="images/profile3.jpeg" alt="khomotso-portrait-img">
                 </div>
                 <div class="column right">
-                    <p class="text">I am a Web Developer currently studying Computer Science part-time. I enjoy learning new programming technologies. I have a superior capacity for understanding new ideas and concepts quickly. I aim to deliver quality solutions to problems that I am required to solve with the highest standard.
+                    <p class="text">I am a Web Developer currently studying Computer Science part-time. I enjoy learning
+                        new programming technologies. I have a superior capacity for understanding new ideas and
+                        concepts quickly. I aim to deliver quality solutions to problems that I am required to solve
+                        with the highest standard.
 
                     </p>
                 </div>
@@ -85,7 +90,8 @@
             <h2 class="title" data-heading="My Abilities">My Experience</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <p>Over the past years I have made the effort to try and refine my knowledge in the languages already I
+                    <p>Over the past years I have made the effort to try and refine my knowledge in the languages
+                        already I
                         know, to learn new languages and technologies within the tech environment.
                         <br>
                         Here is a list of the languages and concepts that I have covered on my journey thus far:
@@ -112,29 +118,26 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!--===== Work =====-->
+    <!-- Work Section -->
     <section class="work section" id="work">
         <h2 data-heading="My Portfolio" class="title">Recent Works</h2>
 
         <div class="work-filters">
             <span class="work-item active-work" data-filter="all">All</span>
-            <span class="work-item" data-filter=".react">React</span> 
-             <span class="work-item" data-filter=".node">Node</span> 
-             <span class="work-item" data-filter=".typescript">Typescript</span> 
+            <span class="work-item" data-filter=".react">React</span>
+            <span class="work-item" data-filter=".node">Node</span>
+            <span class="work-item" data-filter=".typescript">Typescript</span>
         </div>
 
         <div class="work-container container grid">
-
             <div class="work-card mix react">
-                <img src="images/projects/weather.png" alt="word guess img" class="work-img">
+                <img src="images/projects/weather.png" alt="word guess" class="work-img">
                 <h3 class="work-title">Weather App</h3>
-                <span class="work-button">more info
-                    <i class="fa-solid fa-arrow-right work-button-icon"></i>
-                </span>
+                <span class="work-button">more info <i class="fa-solid fa-arrow-right work-button-icon"></i> </span>
+                
                 <div class="portfolio-item-details">
                     <h3 class="details-title">Weather App</h3>
                     <p class="details-description">A simple weather app that allows you to enter your location to check the weather</p>
@@ -143,7 +146,7 @@
                         <li>Technologies - <span>react</span></li>
                         <li>Status - <span>completed</span></li>
                     </ul>
-                    <a href="https://playful-frangipane-09943a.netlify.app/" class="view-live">View Project</a>
+                    <a href="https://kaleidoscopic-pavlova-43a22b.netlify.app/" class="view-live">View Project</a>
                 </div>
             </div>
 
@@ -165,44 +168,45 @@
                 </div>
             </div>
 
-             
 
-                <div class="work-card mix react">
-                    <img src="images/projects/todolist.png" alt="todo List img" class="work-img">
-                    <h3 class="work-title">Todo List</h3>
-                    <span class="work-button">more info
-                        <i class="fa-solid fa-arrow-right work-button-icon"></i>
-                    </span>
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Todo List</h3>
-                        <p class="details-description">A todo list app</p>
-                        <ul class="details-info">
-                            <li>Created - <span>4 Mar 2022</span></li>
-                            <li>Technologies - <span>react</span></li>
-                            <li>Status - <span>completed</span></li>
-                        </ul>
-                        <a href="https://starlit-croissant-325d41.netlify.app/" class="view-live">View Project</a>
-                    </div>
-                </div>
 
-                <div class="work-card mix react">
-                    <img src="images/projects/studyCards.png" alt="study cards img" class="work-img">
-                    <h3 class="work-title">Study Cards</h3>
-                    <span class="work-button">more info
-                        <i class="fa-solid fa-arrow-right work-button-icon"></i>
-                    </span>
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Study Cards</h3>
-                        <p class="details-description">A flashcard app that allows a user to notes that can be view in the form of flashcards
-                            to help improve your studying</p>
-                        <ul class="details-info">
-                            <li>Created - <span>07 Aug 2022</span></li>
-                            <li>Technologies - <span>react, mongoDb, nodejs</span></li>
-                            <li>Status - <span>in progress</span></li>
-                        </ul>
-                        <a href="https://sweet-biscotti-3d0038.netlify.app/" class="view-live">View Project</a>
-                    </div>
+            <div class="work-card mix react">
+                <img src="images/projects/todolist.png" alt="todo List img" class="work-img">
+                <h3 class="work-title">Todo List</h3>
+                <span class="work-button">more info
+                    <i class="fa-solid fa-arrow-right work-button-icon"></i>
+                </span>
+                <div class="portfolio-item-details">
+                    <h3 class="details-title">Todo List</h3>
+                    <p class="details-description">A todo list app</p>
+                    <ul class="details-info">
+                        <li>Created - <span>4 Mar 2022</span></li>
+                        <li>Technologies - <span>react</span></li>
+                        <li>Status - <span>completed</span></li>
+                    </ul>
+                    <a href="https://starlit-croissant-325d41.netlify.app/" class="view-live">View Project</a>
                 </div>
+            </div>
+
+            <div class="work-card mix react">
+                <img src="images/projects/studyCards.png" alt="study cards img" class="work-img">
+                <h3 class="work-title">Study Cards</h3>
+                <span class="work-button">more info
+                    <i class="fa-solid fa-arrow-right work-button-icon"></i>
+                </span>
+                <div class="portfolio-item-details">
+                    <h3 class="details-title">Study Cards</h3>
+                    <p class="details-description">A flashcard app that allows a user to notes that can be view in the
+                        form of flashcards
+                        to help improve your studying</p>
+                    <ul class="details-info">
+                        <li>Created - <span>07 Aug 2022</span></li>
+                        <li>Technologies - <span>react, mongoDb, nodejs</span></li>
+                        <li>Status - <span>in progress</span></li>
+                    </ul>
+                    <a href="https://sweet-biscotti-3d0038.netlify.app/" class="view-live">View Project</a>
+                </div>
+            </div>
 
 
             <div class="work-card mix react">
@@ -213,7 +217,8 @@
                 </span>
                 <div class="portfolio-item-details">
                     <h3 class="details-title">Word Guess (Wordle)</h3>
-                    <p class="details-description">A clone of the populsr word guessing 'Wordle' that will surely keep you on your toes.</p>
+                    <p class="details-description">A clone of the populsr word guessing 'Wordle' that will surely keep
+                        you on your toes.</p>
                     <ul class="details-info">
                         <li>Created - <span>28 Apr 2022</span></li>
                         <li>Technologies - <span>react</span></li>
@@ -277,7 +282,6 @@
                 </div>
             </div>
 
-           
         </div>
     </section>
 
@@ -376,6 +380,7 @@
         </div>
     </section>
 
+    <!-- footer-->
     <footer>
         <span>&copy khomotso Tibane 2022</span>
     </footer>
